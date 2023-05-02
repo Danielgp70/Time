@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import openpyxl
 
-driver = webdriver.Chrome()
+driver = webdriver.Edge()
 
 driver.get('https://myte.accenture.com/')
 time.sleep(50)
